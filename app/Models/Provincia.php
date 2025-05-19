@@ -27,13 +27,13 @@ class Provincia extends Model
      */
     protected $table = 'provincias';
 
-    
+
      /**
      * The attributes that are mass assignable.
      *
      * @var list<string>
      */
-    protected$fillable = [
+    protected $fillable = [
         'nombre',
         'codigo'
     ];
